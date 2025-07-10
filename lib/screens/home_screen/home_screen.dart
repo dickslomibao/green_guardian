@@ -37,6 +37,11 @@ class _HomeScreenState extends State<HomeScreen> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
+                      Image.network(
+                        'https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg',
+                        width: 100,
+                        height: 100,
+                      ),
                       Row(
                         children: [
                           Image.asset(
